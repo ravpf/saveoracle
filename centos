@@ -1,0 +1,6 @@
+ubuntu18.04 AMD 官方原版完整救援包（用户名：root , 密码：CNBoy.org）
+wget --no-check-certificate https://github.com/honorcnboy/BlogDatas/releases/download/OracleRescueKit/ubuntu18.04.amd.img.gz
+* 恢复数据约46G，耗时约1个多小时
+
+使用 ubuntu18.04 AMD 官方原版完整救援包，命令如下：
+gzip -dc /root/ubuntu18.04.amd.img.gz | dd of=/dev/sdb
